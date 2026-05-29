@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 # ============================================================
 # PAGE SETUP
 # ============================================================
-st.set_page_config(page_title="Financial Intelligence", layout="wide")
+st.set_page_config(page_title="Python Financial Analysis", layout="wide")
 
 # ============================================================
 # THEME TOGGLE
@@ -179,7 +179,7 @@ def generate_insights():
 # ============================================================
 # HEADER
 # ============================================================
-st.markdown('<div class="main-title">Financial Intelligence Dashboard</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-title">Python Financial Analysis</div>', unsafe_allow_html=True)
 st.markdown('<div class="main-sub">Stock performance, risk analysis, and market insights</div>', unsafe_allow_html=True)
 
 # ============================================================
