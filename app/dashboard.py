@@ -113,7 +113,14 @@ st.markdown(f"""
 # ============================================================
 # LOAD DATA
 # ============================================================
-prices = pd.read_csv("data/close_prices.csv", index_col=0, parse_dates=True)
+# Fetch data live so the app works anywhere (local or cloud)
+@st.cache_data(ttl=3600)
+def load_prices():
+    raw = yf.download(["AAPL", "MSFT", "GOOGL"], period="6mo")
+    close = raw["Close"]
+    return close
+
+prices = load_prices()
 
 # ============================================================
 # SIDEBAR
