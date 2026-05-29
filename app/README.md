@@ -1,4 +1,4 @@
-Financial Intelligence Dashboard
+# Python Financial Analysis
 An interactive financial analytics dashboard built with Python and Streamlit. It fetches real stock market data, computes risk and return metrics, generates analyst-style insights, and visualizes everything in a clean, themeable interface inspired by professional trading terminals.
 
 Overview
@@ -60,6 +60,9 @@ Total Return — the percentage change in price over the analyzed period.
 Volatility — annualized standard deviation of daily returns; a measure of risk.
 Sharpe Ratio — return earned per unit of risk taken; higher values indicate more efficient performance.
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20App-success?style=for-the-badge)](https://python-financial-analysis-efbytlwecddi8lldbk4rrw.streamlit.app/)
+
+**[▶ Open the live dashboard](https://python-financial-analysis-efbytlwecddi8lldbk4rrw.streamlit.app/)** — no installation needed.
 
 Disclaimer
 This project is for educational and analytical purposes only. The trend projection is a simple statistical estimate and does not constitute financial advice. Markets are influenced by many factors that no simple model can predict.
